@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# DevExtreme DataGrid - Multiple words search
+# DataGrid for DevExtreme - Multiple words search
 
 This example illustrates how to implement multiple words search in DataGrid
 

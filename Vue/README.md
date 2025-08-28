@@ -1,33 +1,27 @@
-# Vue 3 + TypeScript + Vite + DevExtreme
+# DataGrid - Multiple words search
 
-For more information about this example check the [Readme](../README.md).
 
-## Build and Lint
+This example illustrates how to implement multiple words search in DataGrid
 
-Install dependencies:
-```sh
+## Project setup
+```
 npm install
 ```
 
-Build the production bundle:
-```sh
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
 npm run build
 ```
 
-Run the linter:
-```sh
+### Lints and fixes files
+```
 npm run lint
 ```
 
-Dev server to preview locally:
-```sh
-npm run dev
-```
-
-## Further help
-
-You can learn more about Vue in the [Vue documentation](https://vuejs.org/guide/introduction.html).
-You can learn more about Vite in the [Vite documentation](https://vite.dev/).
-You can learn more about DevExtreme Vue components in the [DevExtreme Vue documentation](https://js.devexpress.com/Vue/).
-
-To get more help with DevExtreme, submit a ticket through the [Support Center](https://supportcenter.devexpress.com/ticket/create).
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,0 +1,19 @@
+<dx-data-grid
+  [dataSource]="dataSource"
+  [remoteOperations]="true"
+  [height]="600"
+  [width]="800"
+  [showBorders]="true"
+  [customizeColumns]="customizeColumns"
+>
+  <dxo-filter-row [visible]="true"></dxo-filter-row>
+  <dxo-header-filter [visible]="true"></dxo-header-filter>
+  <dxo-search-panel [visible]="true" [width]="240" placeholder="Search" [(text)]="searchText"></dxo-search-panel>
+
+  <dxi-column dataField="ShipName" dataType="string">
+  </dxi-column>
+  <dxi-column dataField="ShipAddress" dataType="string">
+  </dxi-column>
+  <dxi-column dataField="ShipCity" dataType="string">
+  </dxi-column>
+</dx-data-grid>

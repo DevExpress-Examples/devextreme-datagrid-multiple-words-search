@@ -9,7 +9,7 @@
 
 This example illustrates how to implement multiple words search in DataGrid
 
-<div align="center"><img alt="This example illustrates how to implement multiple words search in DataGrid" src="datagrid-complex-search.png" /></div>
+<div align="center"><img alt="This example illustrates how to implement multiple words search in DataGrid" src="images/datagrid-complex-search.png" /></div>
 
 ## Files to Review
 

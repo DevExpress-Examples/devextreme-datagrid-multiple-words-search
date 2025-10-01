@@ -18,9 +18,15 @@
       <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
     </Exec>
   </Target>
+  <ItemGroup>
+    <Compile Remove="ASP.NET Core\**" />
+    <Content Remove="ASP.NET Core\**" />
+    <EmbeddedResource Remove="ASP.NET Core\**" />
+    <None Remove="ASP.NET Core\**" />
+  </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DevExtreme.AspNet.Core" Version="25.1.*" />
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="25.1.3" />
   </ItemGroup>
 
 </Project>

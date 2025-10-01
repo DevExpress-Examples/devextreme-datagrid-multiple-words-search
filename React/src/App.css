@@ -2,3 +2,8 @@
   margin: 50px;
   width: 90vw;
 }
+
+.highlighted {
+  color: #fff;
+  background-color: #337ab7;
+}

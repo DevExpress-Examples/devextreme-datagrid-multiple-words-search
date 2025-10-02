@@ -14,17 +14,17 @@ This example illustrates how to implement multiple words search in DataGrid
 ## Files to Review
 
 - **jQuery**
-    - [index.html](jQuery/index.html)
-    - [index.js](jQuery/index.js)
+    - [index.html](jQuery/src/index.html)
+    - [index.js](jQuery/src/index.js)
 - **Angular**
-    - [app.component.html](angular/src/app/app.component.html)
-    - [app.component.ts](angular/src/app/app.component.ts)
+    - [app.component.html](Angular/src/app/app.component.html)
+    - [app.component.ts](Angular/src/app/app.component.ts)
 - **Vue**
-    - [App.vue](vue/src/App.vue)
+    - [HomeContent.vue](Vue/src/components/HomeContent.vue)
 - **React**
-    - [App.js](react/src/App.js)
+    - [App.tsx](React/src/App.tsx)
 - **ASP.Net Core**    
-    - [Index.cshtml](ASP.NET%20Core/ASP.NET%20Core/Views/Home/Index.cshtml)
+    - [Index.cshtml](ASP.NET%20Core/Views/Home/Index.cshtml)
 
 ## Documentation
 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { DxDataGridModule } from 'devextreme-angular';
 import { DxDataGridTypes } from 'devextreme-angular/ui/data-grid';
 import * as AspNetData from 'devextreme-aspnet-data-nojquery';
@@ -8,6 +8,7 @@ import * as AspNetData from 'devextreme-aspnet-data-nojquery';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   standalone: true,
+  changeDetection: ChangeDetectionStrategy.Eager,
   imports: [DxDataGridModule],
 })
 export class AppComponent {
